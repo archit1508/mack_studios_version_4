@@ -1,0 +1,311 @@
+/*fonts and font colors*/
+@import url('https://rsms.me/inter/inter-ui.css');
+.font_inter,.nav-link,.p1,.he2,.card-title,.card-text,.btn2,.he3,.p2,.he4,.p5,.p6{
+	font-family: 'Inter UI', sans-serif;
+}
+.card-title{
+	font-weight: bolder;
+	font-size: 1em;
+	color: #253138;
+}
+.card-text{
+	font-size: 0.9em;
+	text-align: justify;
+	padding:30px 30px;
+	color: #536d79;
+	font-weight: 500;
+	line-height: 2;
+}
+.btn2,.he3{
+	font-weight: bold;
+}
+.he1,.nav-link,.p1,.he5,.p5,.p6{
+	color: #ffffff;
+}
+.he1,.he5{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bolder;
+	font-size: 2em;
+}
+.he5{
+	font-size: 2.4em !important;
+	padding: 45px 45px 0px 45px;
+}
+.he2,.he4{
+	font-weight: bolder;
+	letter-spacing: 3px;
+	font-size: 1.7em;
+}
+.he3{
+	font-size: 1.8em;
+	padding-top: 150px;
+	padding-bottom: 15px;
+	color: #253138;
+}
+.p1{
+	padding: 0px 30px 60px 240px;
+	font-size: 0.9em;
+}
+.p2{
+	padding: 30px 45px 135px 90px;
+	font-size: 1.1em;
+	line-height: 2;
+	text-align: justify;
+	color: #536d79;
+}
+.p4{
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.7em;
+	padding-left: 45px;
+	color: #c9defb;
+}
+.p5,.p6{
+	padding-top: 30px;
+}
+.p5{
+	font-size: 0.9em;
+}
+.p6{
+	float: right;
+	font-size: 1.2em;
+}
+nav ul li a{
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+/* containers */
+.con1{
+	background: url(../img/bg1.png);
+}
+.con2{
+	margin-top: 90px;
+	background: url(../img/bg2.png);
+}
+.con3{
+	margin-bottom: 300px;
+}
+.con4{
+	background: url(../img/bg3.png);
+	padding: 30px 240px;
+}
+.con4 .row-form{
+	background: url(../img/bg-form.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.con-bg{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/* nav */
+
+.navbar{
+	padding: 45px 120px;
+}
+.logo-nav{
+	width: 75px;
+}
+.nav-link{
+	padding: 0px 30px !important;
+}
+nav a:hover{
+	color: #c4daff;
+	text-decoration: underline;
+}
+/* headings */
+.he1{
+	padding: 180px 30px 15px 240px;
+}
+.he2{
+	margin-top: 120px;
+}
+.he4{
+	margin-top: 120px;
+	margin-bottom: 90px;
+}
+/*buttons*/
+.btn1{
+	background-color: #ffffff !important;
+	color: #000000 !important;
+	margin-left: 240px !important;
+	margin-bottom: 100px !important;
+	border-radius: 10px !important;
+	padding: 10px 15px !important;
+}
+.btn2{
+	padding: 10px 45px;
+	margin-top: 60px;
+	margin-bottom: 90px;
+	border-radius: 10px;
+	background-color: #2ec8ee;
+	border :none;
+}
+.btn-submit{
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.8em;
+	margin-top: 15px;
+	padding: 8px 45px;
+	background-color: #4aa3eb;
+	color: #ffffff;
+	border-radius: 8px;
+}
+.span1{
+	padding-left: 20px;
+	color: #2fc9ef;
+}
+/*carousel*/
+.carousel{
+	padding:30px 150px;
+}
+.car-col{
+	padding:30px 105px;
+}
+.pi{
+	width: 270px;
+}
+
+/* card */
+.card-deck{
+	padding-left:240px;
+	padding-right: 240px;
+}
+.card{
+	box-shadow: 0px 0px 20px #e2e2e2;
+}
+.card-deck1{
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+.card-img-top{
+	width: 110px;
+	padding: 45px 0px 30px 0px;
+}
+/*FORM*/
+form{
+	padding: 60px 60px 120px 90px;
+}
+.form-control{
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.8em;
+	margin-top: 15px;
+	padding: 9px 0px 9px 20px;
+}
+input,textarea{
+	border:none !important;
+	border-radius: 5px !important;
+}
+textarea{
+	margin-top: 30px !important;
+}
+input,textarea,.btn-submit{
+	box-shadow: 0px 0px 5px #666666;
+}
+.row-form{
+	margin-top: -150px;
+	margin-bottom: 30px;
+	border-radius: 20px;
+}
+.row-footer{
+	border-top: 1px solid #68a3ea;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #b7b7b7 !important;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #b7b7b7 !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #b7b7b7 !important;
+}
+/* scrolled */
+
+.navbar.scrolled {
+	padding: 5px 60px;
+	background-color: rgba(68,68,68,0.6);
+	transition: background-color 200ms linear;
+}
+.logo-nav.scrolled{
+	width: 45px;
+}
+
+/*img*/
+.i1{
+	padding-top: 180px;
+	padding-left: 105px;
+	width: 480px;
+}
+.fa{
+	padding-left: 15px;
+}
+/*Mobile*/
+.mobShow{
+	display: none;
+}
+@media only screen and (max-device-width : 480px){ 
+	.he1{
+		padding: 240px 30px 15px 30px;
+	}
+	.p1{
+		padding: 30px 30px 60px 30px;
+		text-align: justify;
+	}
+	.btn1{
+		margin-left: 30px !important;
+	}
+	.i1{
+		display: none;
+	}
+	.card-deck{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.p2{
+		padding: 30px 30px 135px 30px;
+	}
+	.he3{
+		padding-top: 30px;
+	}
+	.carousel{
+		display: none;
+	}
+	.con4{
+		padding: initial;
+	}
+	.row-form,.row-footer{
+		margin-right: 0;
+		margin-left: 0;
+		border-radius: 0;
+	}
+	.navbar{
+		padding: 45px 45px;
+	}
+	.logo-nav{
+		width: 45px;
+	}
+	.mobShow{
+		display: initial;
+	}
+	.he11{
+		font-family: 'inter ui', sans-serif;
+		color: #ffffff;
+		font-size: 1em;
+		margin: 0 !important;
+	}
+	form{
+		padding: 15px 30px 60px 30px;
+	}
+	.btn-submit{
+		padding: 10px 120px;
+		margin-top: 30px;
+	}
+	.p4{
+		padding-right: 45px;
+		margin-top: 30px;
+	}
+}
